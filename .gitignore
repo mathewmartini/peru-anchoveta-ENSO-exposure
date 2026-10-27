@@ -1,0 +1,21 @@
+# Files git should never upload to GitHub.
+# Each line is a pattern; a trailing / means "this whole folder".
+
+# --- Course material (not ours to publish) ---
+reference/DataAnalysisProject_Instructions2026.pdf
+
+# --- macOS clutter ---
+.DS_Store
+
+# --- R session files (saved workspaces and command history) ---
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# --- Editor settings (Positron / VS Code) ---
+.positron/
+.vscode/
+
+# --- Temporary lock files Excel/Word create while a file is open ---
+~$*
